@@ -161,6 +161,11 @@ div.dataTables_wrapper div.dataTables_filter label {
   background-color: #d7f2c2;
   color: #7bd235;
 }
+.badge-primary-alt {
+  background-color: #85b6ff;
+  color: #ffffff;
+}
+
 
 .table a {
   color: #212529;
@@ -1563,12 +1568,13 @@ form label {
 
 .btn-primary {
   background: #0187FA;
-  color: #fff;
+  color: #fff!important;
   border: 2px solid #0187FA !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #00539c !important;
   border-color: #00539c !important;
+  color: #fff;
 }
 .btn-primary.btn-outline {
   background: transparent;
